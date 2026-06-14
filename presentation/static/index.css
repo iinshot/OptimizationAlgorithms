@@ -1,0 +1,72 @@
+body{
+    margin:0;
+    background: #eef5ff;
+    font-family: Arial;
+}
+
+.layout{
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar{
+    width: 220px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    border-radius: 18px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.main{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.params{
+    background: white;
+    border-radius: 18px;
+    padding: 15px;
+    margin-bottom: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.graph{
+    flex: 1;
+    background: white;
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.paramRow{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.paramRow label{
+    font-size: 14px;
+}
+
+.paramRow input{
+    width: 100px;
+    padding: 6px;
+    border-radius: 8px;
+    border: 1px solid #d0d8ff;
+}
+
+.info{
+    margin-top: auto;
+    padding: 10px;
+    border-radius: 12px;
+    background: #f6f9ff;
+    font-size: 14px;
+}

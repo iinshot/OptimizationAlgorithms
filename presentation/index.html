@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Optimization Lab</title>
+
+<link rel="stylesheet" href="static/index.css">
+
+<script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+</head>
+
+<body>
+
+<div class="layout">
+
+  <div class="sidebar">
+      <select id="algorithmSelect"></select>
+      <select id="functionSelect"></select>
+
+      <div id="infoPanel" class="info"></div>
+  </div>
+
+  <div class="main">
+
+      <div id="parameters" class="params"></div>
+
+      <div id="graph" class="graph"></div>
+
+  </div>
+
+</div>
+
+<script type="module" src="static/app.js"></script>
+
+</body>
+</html>
